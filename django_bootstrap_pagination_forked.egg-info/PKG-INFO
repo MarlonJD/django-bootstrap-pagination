@@ -1,3 +1,38 @@
+Metadata-Version: 2.1
+Name: django-bootstrap-pagination-forked
+Version: 1.7.1
+Summary: Render Django Page objects as Bootstrap 3.x/4.x Pagination compatible HTML
+Home-page: https://github.com/MarlonJD/django-bootstrap-pagination
+Author: Jason McClellan<jason@jasonmcclellan.io>, Koert van der Veer<koert@ondergetekende.nl>
+Author-email: jason@jasonmccllelan.io
+License: MIT licence, see LICENCE
+Keywords: django bootstrap pagination templatetag
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.4
+Classifier: Framework :: Django :: 1.5
+Classifier: Framework :: Django :: 1.6
+Classifier: Framework :: Django :: 1.7
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Project No Longer Maintained
 
 WARNING: This is fork of the jmcclell's repo for Django 4.0 compatibility. I'll try to live this package with your support
@@ -245,3 +280,5 @@ A somewhat more advanced usage might look like:
 ```
     {% bootstrap_pager page_obj previous_label="Newer Posts" next_label="Older Posts" url_view_name="post_archive_paginated" %}
 ```
+
+
