@@ -40,7 +40,7 @@ Compatible with Django **1.2+**
 This will install the latest stable release from PyPi.
 
 ```
-    pip install django-bootstrap-pagination
+    pip install django-bootstrap-pagination-forked
 ```
 
 ### Download
